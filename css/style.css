@@ -1,0 +1,105 @@
+#featured-wines{
+	padding-bottom: 550px;
+}
+
+.container #featured-wines, .dealM {
+	padding-left: 200px
+}
+
+.lightbox
+{
+	padding:120px;
+	float:right;
+}
+
+.infobox
+{
+	padding:20px;
+	float:left;
+}
+
+.lightbox:hover
+{
+	cursor:pointer;
+}
+
+.lightbox img
+{
+
+	margin-bottom:5px;
+}
+
+.lightbox img, .infobox
+{
+	width:120px;
+	padding-left: 20px;
+
+}
+
+.lightbox h5
+{
+	height:80px;
+}
+
+.lightbox-more /* Content*/
+{
+	display:none;
+	position:fixed;
+	left:25%;
+	right:25%;
+	top:20%;
+	bottom:20%;
+	background-color:white;
+	z-index: 100;
+	text-align: left;
+	border-radius: 5px;
+	border: 2px solid #221f20;
+}
+
+/* Products page lightbox inner */
+.lightbox-more div
+{
+	float: left;
+	width: 48%; /* Half the size of the parent!*/
+	padding: 5px;
+	text-align: left;
+}
+
+/* Products page lightbox image*/
+.lightbox-more div img
+{
+	width: auto;
+	height:auto;
+}
+
+.lightbox-more:hover
+{
+	cursor:text;
+}
+
+.lightbox-lightbox
+{
+	position:fixed;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	background-color:black;
+	opacity:0.6;
+	width:100%;
+	height:100%;
+	display:none;
+	z-index: 60;
+}
+
+.lightbox-lightbox:hover
+{
+	cursor:pointer;
+}
+
+.lightbox-imageonly
+{
+	position:fixed;
+	z-index:120;
+	top:0;
+}

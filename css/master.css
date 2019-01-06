@@ -1,0 +1,110 @@
+/*Navbar*/
+.navbar{
+  background-color: #FFFFFF;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+}
+
+.navbar-brand{
+	padding-top: 50px;
+	margin-bottom: 50px;
+}
+
+.nav{
+	text-align: center;
+  font-family: 'Patua One', cursive;
+  font-size: 25px;
+}
+
+.textNavbar{
+  float: right;
+  font-family: 'Poiret One', cursive;
+}
+
+/*Logo*/
+
+.logoHeader{
+	font-family: 'Great Vibes', cursive;
+	color: #A88F53;
+	font-size: 60px;
+  text-shadow: 2px 2px 4px #000000;
+	margin-bottom: 15px;
+}
+.logoText{
+	font-family: 'Playfair Display SC', serif;
+	text-align: center;
+	color: #A88F53;
+}
+
+/*Footer*/
+
+footer{
+  background-color: #251E15;
+  height: 130px;
+  border-top: 2px;
+  border-top-color: #666666;
+  border-top-style: solid;
+  margin-top: 35px;
+  text-align: center;
+  font-family: 'Playfair Display SC', serif;
+  color: #A88F53;
+}
+
+.logoFooter{
+	font-family: 'Playfair Display SC', serif;
+	color: #A88F53;
+	font-size: 30px;
+	padding-top: 20px;
+}
+
+/*About page*/
+
+.heading{
+  font-family: 'Homenaje', sans-serif;
+  font-size: 50px;
+	color: #FFCC33;
+  margin-top: 30px;
+}
+
+#textHeading{
+  font-family: 'Homenaje', sans-serif;
+  font-size: 50px;
+  color: #646361;
+}
+
+.paragraph{
+  font-family: 'Homenaje', sans-serif;
+  font-size: 20px;
+	color: #939393;
+	text-align: justify;
+}
+
+#quote{
+  font-family: 'Homenaje', sans-serif;
+  font-size: 35px;
+  color: #FFCC33;
+  text-align: justify;
+}
+
+#author{
+  font-family: 'Homenaje', sans-serif;
+  font-size: 35px;
+  color: #646361;
+}
+
+hr {
+	border-width: 2px;
+  border-color: #646361;
+}
+
+/*Signup page*/
+
+#grapevine{
+  margin-top: 50px;
+}
+
+.control-label{
+  font-family: 'Homenaje', sans-serif;
+  font-size: 20px;
+  color: #FFCC33;
+}
